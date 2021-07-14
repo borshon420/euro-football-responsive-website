@@ -103,7 +103,7 @@ footer {
 
 /* responsive for mobile */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 736px) {
     .header-content, .blogs {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -136,6 +136,10 @@ footer {
     .header-image img {
         width: 100%;
         height: 100%;
+    }
+
+    .container {
+        margin: auto;
     }
 
     footer {
