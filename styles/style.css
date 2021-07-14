@@ -83,6 +83,34 @@ h1 {
     height: 256px;
 }
 
+.card p {
+    color: #6C6C6C;
+}
+
+/* trophys area */
+
+.trophys {
+    width: 40%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.trophy-title {
+    color: #2D25A0;
+    text-align: center;
+    font-size: 60px;
+}
+
+.trophy {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.trophy img {
+    width: 150px;
+    height: 150px;
+}
+
 /* footer area */
 
 footer {
@@ -140,6 +168,10 @@ footer {
 
     .container {
         margin: auto;
+    }
+
+    .trophys {
+        display: none;
     }
 
     footer {
