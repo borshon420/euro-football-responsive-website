@@ -4,6 +4,7 @@
 /* utilities */
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -45,10 +46,6 @@ h1 {
     color: white;
 }
 
-.header-content .header-title, .header-image {
-    margin-top: 100px;
-}
-
 .header-image img {
     width: 556px;
     height: 438px;
@@ -58,6 +55,12 @@ h1 {
 .header-image:hover img { 
     transform: rotate(10deg); transform-origin: top right;
 }
+
+.header-content .header-title, .header-image {
+    margin-top: 100px;
+}
+
+
 
 /* players blog */
 .container {
@@ -95,15 +98,15 @@ h1 {
     margin-top: 70px;
 }
 
+.trophy {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .trophy-title {
     color: #2D25A0;
     text-align: center;
     font-size: 60px;
-}
-
-.trophy {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
 }
 
 .trophy img {
